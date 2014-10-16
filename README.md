@@ -1,4 +1,4 @@
-## Toolbox of patterns and functions which are used by me every day
+Toolbox of patterns and functions which are used by me every day
 ---
 
 > I use these stuff based on situation.  
@@ -7,9 +7,10 @@
 Compatibility
 ---
 
-IE9.0+
-Chrome
-FF
+IE9.0+,
+Chrome,
+FF,
+Safari 5+
 
 *In some cases solutions will be compatible for only several browsers. Check 
 compatibility info within each solution*
@@ -29,3 +30,4 @@ Version
  * 2014-02-16   v1.0.1   First push
  * 2014-02-16   v1.0.2   Some changes
  * 2014-02-16   v1.1.0a   Singleton
+ * 2014-10-16   v1.2.0a   IEDetectAddClass
