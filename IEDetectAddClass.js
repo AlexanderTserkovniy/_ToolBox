@@ -20,8 +20,10 @@
   if ((matchedResult = agentString.match(mainReg)) &&
     (version = matchedResult[1] || matchedResult[2])) {
     if (elementToEnrich.classList) {
+      elementToEnrich.classList.add(prefix + 'IE');
       elementToEnrich.classList.add(prefix + 'IE' + version);
     } else {
+      elementToEnrich.className += (' ' + prefix + 'IE');
       elementToEnrich.className += (' ' + prefix + 'IE' + version);
     }
   }
