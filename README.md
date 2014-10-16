@@ -18,7 +18,7 @@ compatibility info within each solution*
 Version
 ---
 
-1.1.0a — *MAJOR_CHANGES.COUNT_OF_PATTERNS.FIXES[Alpha(a)/Beta(b)/Final(f)]*
+1.2.1a — *MAJOR_CHANGES.COUNT_OF_PATTERNS.FIXES[Alpha(a)/Beta(b)/Final(f)]*
 
  - Alpha(a) version is not tested version (only console)
  - Beta(b) version is tested version (in some project)
@@ -31,3 +31,4 @@ Version
  * 2014-02-16   v1.0.2   Some changes
  * 2014-02-16   v1.1.0a   Singleton
  * 2014-10-16   v1.2.0a   IEDetectAddClass
+ * 2014-10-16   v1.2.1a   Corrected version
