@@ -14,8 +14,13 @@
   var mainReg       = /MSIE\s?(\d+)\.(?:\d+)?|rv\:(\d+)\.(?:\d+)?/i,
     matchedResult   = null,
     version         = 0,
+    isFirefox       = !!~agentString.indexOf('Firefox/'),
     elementToEnrich =
       document.documentElement || document.getElementsByTagName('html')[0];
+
+  if (isFirefox) {
+    return false;
+  }
 
   if ((matchedResult = agentString.match(mainReg)) &&
     (version = matchedResult[1] || matchedResult[2])) {

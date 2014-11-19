@@ -33,3 +33,5 @@ Version
  * 2014-10-16   v1.2.0a   IEDetectAddClass
  * 2014-10-16   v1.2.1a   Corrected version
  * 2014-10-16   v1.2.2a   Added prefix + 'IE' class
+ * 2014-11-19   v1.2.3b   Fixed issue #1 (Firefox check). Tested in some
+                              projects thus "b"
